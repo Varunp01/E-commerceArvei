@@ -4,7 +4,7 @@ export default function Logo(){
     return(
         <>
         <div className="logocontainer">
-            <img src="src\logocomponent\Capture.PNG" alt="logo"/>
+            <img src="https://ibb.co/TBrysfx" alt="logo"/>
         </div>
         </>
     )
