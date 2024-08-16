@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: space-around;
     color: black;
-    height: 30px;
-    width: 100vw;
+    /* height: 30px; */
+    width: 100%;
     /* background-color: aqua; */
     /* border-bottom: 2px solid rgb(173, 173, 173); */
 }
@@ -14,4 +14,25 @@
     background: none;
     border: none;
 
+}
+.uppernavmobile{
+    display: none;
+}
+.mobileblock{
+    display: none;
+}
+.mobilenone{
+    display: flex;
+}
+@media screen and (max-width: 650px){
+
+    .mobileblock{
+        display: block;
+    }
+    .mobilenone{
+        display: none;
+    }
+    select{
+        min-width: 20px;
+    }
 }

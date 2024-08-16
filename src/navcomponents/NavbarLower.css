@@ -5,7 +5,7 @@
     justify-content: space-around;
     color: black;
     height: 50px;
-    width: 100vw;
+    width: 100%;
     background-color: black;
 
 }
@@ -33,4 +33,20 @@ a:hover{
     text-decoration: none;
     font-size: large;
 
+}
+.lowernavbarformobile{
+    display: none;
+}
+@media screen and (max-width: 650px){
+    .lowerNavbarConntainer{
+        display: none;    
+    }
+    .lowernavbarformobile{
+        display: block;
+        select{
+            border: none;
+            background: none;
+            border: none;
+        }
+    }
 }

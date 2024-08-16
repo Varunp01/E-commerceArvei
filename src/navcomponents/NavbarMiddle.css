@@ -26,3 +26,15 @@
     border: 2px solid rgb(173, 173, 173);
 
 }
+@media screen and (max-width: 650px){
+    .middleNavbarConntainer{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .mobilenone{
+        display: none;
+    }
+    .mobileblock{
+        display: block;
+    }
+}

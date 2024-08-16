@@ -31,6 +31,26 @@ export default function NavbarLower(){
                 &nbsp;&nbsp;
             </div>
         </div>
+        <div className="lowernavbarformobile">
+        <i class="fa-solid fa-grip"></i>
+        <select name="Categories" id="Categories">
+                 <option value="Categories" selected>Categories</option>
+            <optgroup label="All Departments">
+                 <option value="something">something</option>
+                 <option value="good">good</option>
+                 <option value="better">better</option>
+                 <option value="best">best</option>
+             </optgroup>
+            <optgroup label="Navigation">
+                 <option value="Home">Home</option>
+                 <option value="Shop">Shop</option>
+                 <option value="Collection">Collection</option>
+                 <option value="Blog">Blog</option>
+                 <option value="Pages">Pages</option>
+             </optgroup>
+                
+        </select>
+        </div>
         </>
     )
 }

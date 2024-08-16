@@ -7,6 +7,7 @@ export default function Navbar(){
         <NavbarUpper></NavbarUpper>
         <NavbarMiddle></NavbarMiddle>
         <NavbarLower></NavbarLower>
+        
         </>
     )
 }
