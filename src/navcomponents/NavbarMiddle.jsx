@@ -13,7 +13,7 @@ export default function NavbarMiddle(){
           <option value="best">best</option>
         </select>
         <input type="text" name="search" id="search" placeholder='search' className='mobilenone'/>
-        <button className='buttonNavbar mobileblock'><i class="fa-solid fa-magnifying-glass"></i> SEARCH</button>
+        <button className='buttonNavbar '><i class="fa-solid fa-magnifying-glass"></i> SEARCH</button>
         </div>
         <div>
           <button className='buttonNavbar'><i class="fa-solid fa-cart-shopping"></i> CART</button>
