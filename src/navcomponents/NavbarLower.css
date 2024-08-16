@@ -1,0 +1,36 @@
+.lowerNavbarConntainer{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+
+}
+.lowerbuttons{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: grey;
+
+}
+.buttonNavbarlower{
+    border: none;
+    background: none;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+
+}

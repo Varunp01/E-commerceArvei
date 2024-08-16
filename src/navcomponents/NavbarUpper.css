@@ -1,0 +1,17 @@
+.upperNavbarConntainer{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    height: 30px;
+    width: 100vw;
+    /* background-color: aqua; */
+    /* border-bottom: 2px solid rgb(173, 173, 173); */
+}
+.buttonNavbarupper{
+    border: none;
+    background: none;
+    border: none;
+
+}

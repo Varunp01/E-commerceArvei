@@ -1,0 +1,28 @@
+.middleNavbarConntainer{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    height: 50px;
+    width: 100vw;
+    /* background-color: rgb(47, 91, 91); */
+    /* border-bottom: 2px solid rgb(173, 173, 173); */
+
+
+    div{
+        h2{
+            display: inline;
+        }
+    }
+}
+.buttonNavbar{
+    border: none;
+    background: none;
+    font-size: larger;
+}
+.searchContainerMiddle{
+    /* background-color: rgb(129, 129, 129); */
+    border: 2px solid rgb(173, 173, 173);
+
+}

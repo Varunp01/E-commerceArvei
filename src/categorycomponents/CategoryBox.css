@@ -1,0 +1,14 @@
+.cardoutline{
+    width: 20%;
+    /* background-color: black; */
+    /* border: 2px solid rgb(210, 210, 210); */
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.cardimg{
+    height: 100px;
+}
+.cardtext{
+    font-size: 30px;
+}
